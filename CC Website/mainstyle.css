@@ -6,12 +6,12 @@ nav {
     font-size: x-large
 }
 
-.type-text {
-    color:rgba(2, 32, 114, 0.963)
+h2, h3 {
+  color:blue;
 }
 
-.column-margin {
-    margin-right: 10px;
+.type-text {
+    color:rgba(2, 32, 114, 0.963)
 }
 
 .image-container {
@@ -47,7 +47,4 @@ nav {
     transition: opacity 2s ease-in-out; /* Transition opacity over 1 second with ease-in-out timing function */
   }
   
-  h2, h3 {
-    color:blue;
-  }
-  
+
