@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CityCom UK - Glasgow & Manchester: Mobile Phones, Tablets, VOIP and Broadband Solutions for Business</title>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="mainstyle.css">
@@ -23,11 +25,16 @@
   <header>
     <nav class="navbar navbar-expand-md navbar-light">
       <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-            <img class="img-fluid" src="logo1.webp" alt="Logo" style="width: 150px;"> 
-          </a>
+        <a class="navbar-brand" href="#">
+          <img class="img-fluid" src="logo1.webp" alt="Logo" style="width: 150px;"> 
+        </a>
 
-          <ul class="navbar-nav">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link mx-5" href="#services">Services</a>
             </li>
@@ -38,6 +45,7 @@
               <a class="nav-link mx-5" href="#contact">Contact</a>
             </li>
           </ul>
+          </div>
           </div>
         </nav>
       </header>
