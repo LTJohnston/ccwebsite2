@@ -6,11 +6,7 @@ nav {
     font-size: x-large
 }
 
-h2, h3 {
-  color:blue;
-}
-
-.type-text {
+.type-text, h2, h3 {
     color:rgba(2, 32, 114, 0.963)
 }
 
