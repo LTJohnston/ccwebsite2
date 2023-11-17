@@ -10,6 +10,10 @@ nav {
     color:rgba(2, 32, 114, 0.963)
 }
 
+h2, h3 {
+  text-align: center;
+}
+
 .image-container {
     position: relative;
     overflow: hidden;
@@ -18,7 +22,9 @@ nav {
   .overlay {
     position: absolute;
     top: 0;
+    bottom: 0;
     left: 0;
+    right: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);

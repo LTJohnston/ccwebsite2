@@ -11,6 +11,7 @@
   <link rel="stylesheet" type="text/css" href="mainstyle.css">
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script src="https://kit.fontawesome.com/37284ce630.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="logo1.webp" type="image/x-icon"/>
 
   <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -23,7 +24,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img class="img-fluid" src="logo1.webp" alt="Logo" style="width: 150px;"> 
@@ -33,8 +34,8 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="nav navbar-nav">
             <li class="nav-item">
               <a class="nav-link mx-5" href="#services">Services</a>
             </li>
@@ -44,11 +45,22 @@
             <li class="nav-item">
               <a class="nav-link mx-5" href="#contact">Contact</a>
             </li>
-          </ul>
-          </div>
-          </div>
-        </nav>
-      </header>
+            <li class="nav-item border border-primary-subtle">
+              <a href="https://www.cityprintuk.com/" target="_blank">
+              <img class="img-fluid mx-2" src="cityprint.jpeg"  alt="cityprint logo" style="width: 100px;">
+              </a>
+            </li>
+            <li class="nav-item border border-primary-subtle">
+              <a href="https://www.cityenergyuk.com/" target="_blank">
+              <img class="img-fluid mx-2" src="cityenergy.jpeg" alt="cityenergy logo" style="width: 100px;">
+              </a>
+            </li>
+          </ul> 
+        </div>
+      </div>
+    </nav>
+  </header>
+
 
     <div class="container-fluid">
       <div class="row justify-content-center">
@@ -75,9 +87,9 @@
       </div>
     </div>
 
-    <div class="row">
-      <h2 class="text-center" id="services">Services</h2>
-      <div class="col-md-4 col-12 m-3 my-3">
+    <div class="row justify-content-center gx-5 mx-5">
+      <h2 id="services" class="m-3">Services</h2>
+      <div class="col-md-4 col-12">
         <div class="image-container">
           <img class="img-fluid rounded" src="mobile2.webp">
           <div class="overlay">
@@ -86,7 +98,7 @@
         </div>
       </div>
     
-      <div class="col-md-4 col-12 m-3 my-3">
+      <div class="col-md-4 col-12">
         <div class="image-container">
           <img class="img-fluid rounded" src="cellphonemast.webp">
           <div class="overlay">
@@ -95,7 +107,7 @@
         </div>
       </div>
     
-      <div class="col-md-4 col-12 m-3 my-3">
+      <div class="col-md-4 col-12">
         <div class="image-container">
           <img class="img-fluid rounded" src="servervoip.webp">
           <div class="overlay">
@@ -104,23 +116,39 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-4 col-12 text-center p-3 m-3 my-5 fs-5 bg-primary-subtle">
+      <div class="row justify-content-center">
+        <div class="col-md-4 col-12 p-5 m-3 my-5 fs-5 bg-primary-subtle">
           <h2 id="about">Our Story</h2>
           <p>
             <br>
-            Since being founded in Glasgow in 2012, CityCom has transformed
-            telecoms by putting the customer first. 
+            Founded in Glasgow in 2012, CityCom has transformed
+            telecoms by putting the customer first.
+            <br><br>
             Over the years we have built a reputation for exceptional service, 
-            efficiency and professionalism. 
+            efficiency and professionalism.
+            <br><br>
             Our dynamic team thrives on overcoming challenges and exceeding expectations, managing projects with the skill and 
             experience our clients have come to expect. 
-            Get in touch today to discuss how we can provide what your business needs. 
+            <br><br> At citygroup we provide what business needs in terms of telecoms, IT & print support, and energy. 
+            <br><br>
+            Get in touch today to discuss how we can meet your business needs. 
           </p>
         </div>
-        <div class="col-md-7 col-12 m-3 my-5">
+        <div class="col-md-7 col-12 m-3 my-5 justify-content-center align-items-center">
           <div class="image-container">
             <img src="cars2.jpg" class="img-fluid" style="width:100%;">
+          </div>
+          <div class="image-container justify-content-center align-items-center text-center fs-5 m-3 my-5 p-5 border border-primary-subtle">
+            <h3>Part of citygroup</h3>
+            <br>
+            <a href="https://www.cityprintuk.com/" target="_blank">
+              <img class="img-fluid mx-2" src="cityprint.jpeg" alt="cityprint logo" style="width: 150px;">
+            </a>
+            <a href="https://www.cityenergyuk.com/" target="_blank">
+              <img class="img-fluid mx-2" src="cityenergy.jpeg" alt="cityenergy logo" style="width: 150px;">
+            </a>
+            <img class="img-fluid mx-2" src="citycom.jpeg" alt="citycom logo" style="width: 150px;">
+          </div>
         </div>
         </div>
       </div>
@@ -148,7 +176,7 @@
 
     <script>
       var typed = new Typed('.type-text', {
-        strings: ['Mobile Phones', 'Tablets', 'VOIP', 'Fast Broadband', 'Phones, Tablets, VOIP, Broadband'],
+        strings: ['Mobile Phones', 'Tablets', 'VOIP', 'Fast Broadband', 'Phones, Tablets, VOIP and Broadband'],
         typeSpeed: 50,
       });
     </script>
