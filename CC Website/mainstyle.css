@@ -51,18 +51,10 @@ h2, h3 {
   }
   
 @media (max-width: 978px) {
-  .container {
-    padding: 0;
-    margin: 0;
+
+  #carimage {
+    height: 200%
+    width: 200%
   }
 
-  .image-container {
-    padding: 0;
-    margin: 0;
-  }
-
-  body {
-    padding: 0;
-    margin: 0;
-  }
 }
