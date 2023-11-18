@@ -38,6 +38,7 @@ h2, h3 {
   .overlay-text {
     color: white; 
     font-size: 30px;
+    text-align:center;
   }
   
   .image-container:hover .overlay {
@@ -49,4 +50,3 @@ h2, h3 {
     transition: opacity 2s ease-in-out; /* Transition opacity over 1 second with ease-in-out timing function */
   }
   
-
