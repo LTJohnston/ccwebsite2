@@ -49,12 +49,3 @@ h2, h3 {
     opacity: 0; /* Start with opacity set to 0 */
     transition: opacity 2s ease-in-out; /* Transition opacity over 1 second with ease-in-out timing function */
   }
-  
-@media (max-width: 978px) {
-
-  #carimage {
-    height: 100%;
-    width: 100%;
-  }
-
-}
