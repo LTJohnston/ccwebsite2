@@ -53,8 +53,8 @@ h2, h3 {
 @media (max-width: 978px) {
 
   #carimage {
-    height: 200%
-    width: 200%
+    height: 100%;
+    width: 100%;
   }
 
 }
